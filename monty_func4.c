@@ -31,11 +31,6 @@ void monty_rotl(stack_t **stack, unsigned int number_line)
 	(void)number_line;
 }
 
-/**
- * monty_rotr - Rotates the bottom value of a stack_t linked list to the top.
- * @stack: A pointer to the top mode node of a stack_t linked list.
- * @number_line: The current working line number of a Monty bytecodes file.
- */
 void monty_rotr(stack_t **stack, unsigned int number_line)
 {
 	stack_t *top, *bottom;
@@ -57,11 +52,6 @@ void monty_rotr(stack_t **stack, unsigned int number_line)
 	(void)number_line;
 }
 
-/**
- * monty_stack - Converts a queue to a stack.
- * @stack: A pointer to the top mode node of a stack_t linked list.
- * @number_line: The current working line number of a Monty bytecodes file.
- */
 void monty_stack(stack_t **stack, unsigned int number_line)
 {
 	(*stack)->n = STACK;
